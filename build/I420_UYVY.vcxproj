@@ -22,13 +22,14 @@
     <ClInclude Include="..\souce\cxxopts.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\souce\I420_UYUV.cpp" />
+    <ClCompile Include="..\souce\I420_UYVY.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E0B83A23-703D-43F9-9B7B-1E03A50A03CC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>I420_UYUV</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>I420_UYVY</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

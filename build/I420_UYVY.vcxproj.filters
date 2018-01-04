@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\souce\I420_UYUV.cpp">
+    <ClCompile Include="..\souce\I420_UYVY.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
