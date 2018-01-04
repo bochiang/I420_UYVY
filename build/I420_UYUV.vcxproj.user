@@ -11,12 +11,12 @@
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>-s 416x240 -f 100 -i test.yuv -o out.yuv</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-s 1920X1080 -f 1 -i 0.yuv -o 0_0.yuv</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-s 416x240 -f 100 -i test.yuv -o out.yuv</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-s 1920X1080 -f 1 -i 0.yuv -o 0_0.yuv</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)\bin</LocalDebuggerWorkingDirectory>
   </PropertyGroup>

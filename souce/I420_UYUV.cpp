@@ -107,13 +107,13 @@ int main(int argc, char** argv)
             for (c = 0; c < width; c++) {
                 if((c & 0x01) == 0)
                 {
-                    out_image[r * width * 2 + c * 2] = U[(r >> 1) * (width >> 1)+ (c >> 1)];
+                    out_image[r * width * 2 + c * 2 + 1] = V[(r >> 1) * (width >> 1)+ (c >> 1)];
                 }
                 else
                 {
-                    out_image[r * width * 2 + c * 2] = V[(r >> 1) * (width >> 1) + (c >> 1)];
+                    out_image[r * width * 2 + c * 2 + 1] = U[(r >> 1) * (width >> 1) + (c >> 1)];
                 }
-                out_image[r * width * 2 + c * 2 + 1] = Y[r * width + c];
+                out_image[r * width * 2 + c * 2] = Y[r * width + c];
             }
         fwrite(out_image, sizeof(uint8_t), out_size, out_fp);
     }
